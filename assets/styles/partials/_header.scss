@@ -1,0 +1,53 @@
+.header {
+  @include auto_center;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-transform: uppercase;
+  border-bottom: 2px solid #333;
+
+  .header_logo {
+    font-weight: bold;
+    a {
+      color: inherit;
+    }
+  }
+  .header_menu {
+    text-transform: initial;
+    ul {
+      @include inline_menu;
+      li {
+        @include button();
+        margin-left: -2px;
+        margin-bottom: -2px;
+        a {
+        }
+      }
+    }
+  }
+  .searchbox {
+    margin-left: auto;
+    text-transform: initial;
+    font-size: 1rem;
+
+    form {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .fa {
+      display: flex;
+    }
+    input {
+      border: 0;
+      outline: 0;
+      background: transparent;
+    }
+  }
+  .login {
+    @include button();
+    background-color: $color_pink;
+    color: white;
+    margin-bottom: -2px;
+  }
+}

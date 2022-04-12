@@ -1,0 +1,45 @@
+body {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+  color: #333;
+  min-height: 100vh;
+  padding: 4rem;
+  border: 0.5rem solid #333;
+}
+
+h1 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+}
+h2 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+h3 {
+}
+h4 {
+}
+p {
+}
+blockquote {
+  padding: 2rem 0 2rem 1rem;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  font-style: italic;
+}
+ul {
+  margin: 1.5rem 0;
+  li {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.post_content {
+  a {
+    text-decoration: underline;
+  }
+}
+a {
+  color: $color_pink;
+}

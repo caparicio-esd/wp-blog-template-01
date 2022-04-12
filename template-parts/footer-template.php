@@ -1,0 +1,3 @@
+<footer class="footer">
+    aquí viene el footer...
+</footer>
